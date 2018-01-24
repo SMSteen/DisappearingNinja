@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("img").click(function(){
+                $(this).hide();
+            });
+            $("button").click(function(){
+                $("img").show();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <img src="images/seattle_logo_front.jfif" alt="seattle logo front">
+        <img src="images/seahawk_eye.jfif" alt="seahawk eye">
+        <img src="images/seahawk.jfif" alt="seahawk">
+        <img src="images/seahawk_12.jfif" alt="seahawk 12">
+        <img src="images/seahawk_skull.jfif" alt="seahawk skull">
+        <img src="images/im_in.jpg" alt="I'm in">
+        <img src="images/seattle_skyline.jfif" alt="seattle skyline">
+        <img src="images/seattle_trippy.jpg" alt="seattle trippy">
+    </div>
+    <button>Restore</button>
+</body>
+</html>

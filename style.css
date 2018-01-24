@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #a5acaf;
+}
+button{
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    background-color: #002244;
+    color: #69be28;
+    box-shadow: 3px 3px 6px #252525;
+    border-radius: 5px;   
+    font-style: italic;
+    font-weight: bold;
+    font-size: 125%;
+    margin: 20px 0px 0px 40px;
+}
